@@ -1,0 +1,15 @@
+<div class="product-list">
+    <h2>Productos (Vista Estática)</h2>
+    {{#if products.length}}
+        <ul>
+            {{#each products}}
+                <li>
+                    <strong>ID:</strong> {{this.id}} | 
+                    <strong>{{this.title}}</strong> - ${{this.price}} (Stock: {{this.stock}})
+                    <p>{{this.description}}</p>
+                </li>
+            {{/each}}
+        </ul>
+    {{else}}
+    {{/if}}
+</div>
