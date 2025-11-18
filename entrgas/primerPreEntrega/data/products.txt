@@ -1,0 +1,13 @@
+[
+  {
+    "id": "05ee46a4-5d9b-4817-bf65-b04113947fa1",
+    "status": false,
+    "thumbnails": [],
+    "title": "Reloj",
+    "description": "no description",
+    "code": "2QISWMC",
+    "price": 212,
+    "stock": 12,
+    "category": "Electronica"
+  }
+]
